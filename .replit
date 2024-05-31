@@ -1,4 +1,4 @@
-entrypoint="index.html"
+entrypoint="First Lecture/index.html"
 hidden=[".config"]
 modules = ["web:v2-20230623-0b7a606"]
 
@@ -6,5 +6,5 @@ modules = ["web:v2-20230623-0b7a606"]
 channel = "stable-23_11"
 
 [deployment]
-publicDir = "/"
+publicDir = "/First Lecture/"
 deploymentTarget = "static"
