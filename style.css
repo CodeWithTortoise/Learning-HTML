@@ -1,0 +1,24 @@
+/* . = class*/
+/* # = id */
+
+.first-div {
+  color: aqua;
+}
+
+.second-div {
+  color: red;
+}
+
+/* ham log class ka color change kr skte hai background nahi */
+
+#div {
+  background-color: yellow;
+}
+
+#div2{
+  background-color: lightpink;
+}
+
+body{
+  background-color: grey;
+}
