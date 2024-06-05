@@ -1,0 +1,1 @@
+alert("Click ok if you are muu or moo!")
