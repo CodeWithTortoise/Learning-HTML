@@ -1,0 +1,15 @@
+body{
+  background-color: black;
+}
+p3 {
+  background-color: grey;, color: white;
+}
+
+
+
+
+/* Making everything visible */
+
+h2, h1, ol{
+color: white;
+}
