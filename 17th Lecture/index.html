@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Learning about CSS selectors">
+  <title>CSS Selectors</title>
+  <style>
+    /* Make the entire background black */
+    /* body{ */
+    /* background-color: black; */
+    /* } */
+
+    /* Element selector */
+    div {
+      background-color: aqua;
+
+    }
+
+    /* Id selector */
+    #paragraph {
+      background-color: darkgrey;
+      color: green;
+    }
+
+    /* Class selector */
+    .grey {
+      background-color: grey;
+    }
+
+    /* Universal Selector */
+
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Child Selectors */
+    div>p {
+      background-color: hotpink;
+    }
+
+    /* Descendant Selectors */
+    article p {
+      background-color: yellow;
+    }
+
+    /* Pseudo Selectors */
+    a:hover {
+      background-color: green;
+    }
+
+    a:active {
+      background-color: red;
+    }
+
+    a:visited {
+      background-color: red;
+    }
+  </style>
+
+
+</head>
+
+<body>
+  <div>
+    Hello sir, I am a div.
+  </div>
+  <h1 class="grey">Some Paragraphs</h1>
+  <h2 class="grey">Paragraph 1</h2>
+  <p id="paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus modi vitae quis quidem? Minima
+    perferendis, nisi velit eligendi architecto tempora molestias, quis est facere minus quisquam aut modi illum impedit
+    ut rem, cum itaque. Neque fuga reiciendis quod similique distinctio debitis facilis consectetur velit, iure,
+    quisquam voluptatum. Quidem mollitia ut commodi, maxime ex voluptatem officia dolores facere quod quae sint libero
+    cumque recusandae perspiciatis ducimus magni numquam atque, nisi esse praesentium repellat iure. Assumenda ab quia
+    non? Possimus voluptate laudantium rem iure voluptatibus asperiores! Facere molestias provident nam saepe iusto.</p>
+
+  <div>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique aspernatur suscipit assumenda veniam, minus
+      fugit minima eos, molestiae reprehenderit alias quia sint sed!</p>
+  </div>
+
+  <title>Hello World</title>
+  <article>
+    <p>Hellow World</p>
+  </article>
+
+  <a href="https://amazon.com">Open Amazon</a>
+  <div>
+
+
+</body>
+
+</html>
