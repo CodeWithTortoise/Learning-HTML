@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Specificity</title>
+    <style>
+        p {
+            background-color: green;
+        }
+
+        .red {
+            background-color: red;
+        }
+
+        .yellow {
+            background-color: yellow !important;
+        }
+
+        .blue {
+            background-color: blue;
+        }
+
+        [data=x] {
+            background-color: antiquewhite;
+        }
+    </style>
+</head>
+
+<body>
+    <p class="red yellow blue" data-="x">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero alias est, nobis amet quaerat numquam ut quam
+        nemo. Ea tempora consectetur maiores ipsam?
+    </p>
+</body>
+
+</html>
+
+<!-- Specificity Calculation
+To calculate specificity, assign a value to each part of the selector:
+
+Universal Selector: 0
+Element selectors and pseudo-elements: 1
+Class selectors, attribute selectors, and pseudo-classes: 10
+ID selectors: 100
+Inline styles: 1000
+Then, add up the values of all the parts in the selector.
+
+Here is an example  -->
