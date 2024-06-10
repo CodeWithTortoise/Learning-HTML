@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learning style property in CSS</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .box {
+        display: inline-block;
+        border: red solid 5px;
+        margin: 100px;
+        padding: 100px;
+        /* display: grid; */
+        display: flexbox;
+      }
+
+      .cont {
+        display: none;  
+         /* pura gyab hojayega */
+         visibility: hidden;
+         /* khali visible nahi hoga pr jgeh lega */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">Hey I am a box</div>
+    <div class="box">Im his brother</div>
+    <span class="cont">Im a spam uwu</span>
+  </body>
+</html>
