@@ -1,1 +1,1 @@
-Learning HTML, CSS, Javascript.
+Learning Web Development {HTML, CSS, Javascript}
